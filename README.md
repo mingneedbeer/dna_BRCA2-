@@ -11,18 +11,26 @@ Whole-genome sequencing (WGS) data analysis for pathogenic mutations in cancer p
 │   ├── README.md
 │   ├── README_zh-TW.md
 │   └── session-ses_067c.md
-└── TP53/                     # TP53 gene analysis
+├── TP53/                     # TP53 gene analysis
+│   ├── README.md
+│   ├── README_zh-TW.md
+│   └── session-ses_067c.md
+├── RB1/                      # RB1 gene analysis
+│   ├── README.md
+│   └── README_zh-TW.md
+└── APC/                      # APC gene analysis
     ├── README.md
-    ├── README_zh-TW.md
-    └── session-ses_067c.md
+    └── README_zh-TW.md
 ```
 
 ## Gene Analyses
 
-| Gene  | Chromosome | Region (GRCh37)        | PASS Variants | Coding Variants | Pathogenic |
-|-------|-----------|------------------------|---------------|-----------------|------------|
-| BRCA2 | chr13     | 32,889,611–32,973,805 | 68            | 2 (both benign) | None       |
-| TP53  | chr17     | 7,571,720–7,590,868   | 38            | 0               | None       |
+| Gene  | Chromosome | Region (GRCh37)          | PASS Variants | Coding Variants | Pathogenic |
+|-------|-----------|--------------------------|---------------|-----------------|------------|
+| BRCA2 | chr13     | 32,889,611–32,973,805   | 68            | 2 (both benign) | None       |
+| TP53  | chr17     | 7,571,720–7,590,868     | 38            | 0               | None       |
+| RB1   | chr13     | 48,877,887–49,056,122   | 226           | 0               | None       |
+| APC   | chr5      | 112,073,554–112,181,936 | 164           | 1 (benign)      | None       |
 
 ## Method
 
@@ -48,6 +56,8 @@ Tools: `bcftools`, Python 3, Ensembl VEP REST API, NCBI E-utilities
 | v1.2  | Session export log added             |
 | v1.3  | Docs reorganized into gene folders   |
 | TP53  | TP53 analysis added                  |
+| RB1   | RB1 analysis added                   |
+| APC   | APC analysis added                   |
 
 ## Disclaimer
 
