@@ -1,0 +1,4 @@
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf.gz.csi
