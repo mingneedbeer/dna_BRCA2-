@@ -40,6 +40,31 @@ Each gene folder contains `README.md` (English) and `README_zh-TW.md` (Tradition
 
 **No pathogenic mutations detected across all 10 genes.**
 
+### Coding Variants Detail
+
+| Gene | Variant (GRCh37) | Genotype | Protein | ClinVar | gnomAD AF | Classification |
+|------|-------------------|----------|---------|---------|-----------|----------------|
+| BRCA2 | chr13:32906729 A>C (rs144848) | HET | p.Asn372His | Benign (expert panel) | ~24% | Common polymorphism |
+| BRCA2 | chr13:32929387 T>C (rs169547) | HOM | p.Val2466Ala | Benign | ~98% | Near-fixed polymorphism |
+| APC | chr5:112176756 T>A | HET | p.Val2355Asp | Not in ClinVar | Low | Likely benign |
+| EGFR | chr7:55229255 G>A | HET | p.Arg451Lys | Not in ClinVar | Common | Common polymorphism |
+| ATM | chr11:108183167 A>G | HOM | p.Asn1497Ser | Not in ClinVar | Common | Common polymorphism |
+
+### Non-coding Variants Summary
+
+| Gene | Total PASS | Intronic | UTR | Upstream/Downstream | Synonymous | Splice-adjacent |
+|------|-----------|----------|-----|---------------------|------------|-----------------|
+| BRCA2 | 68 | ~50 | ~5 | ~10 | 3 | 0 |
+| TP53 | 38 | ~25 | ~1 | ~12 | 0 | 0 |
+| RB1 | 226 | ~180 | ~20 | ~25 | 0 | 1 |
+| APC | 164 | ~120 | ~5 | ~35 | 4 | 0 |
+| PTEN | 35 | ~25 | ~3 | ~7 | 0 | 0 |
+| KRAS | 84 | ~60 | ~5 | ~18 | 1 | 0 |
+| EGFR | 359 | ~280 | ~15 | ~50 | 4 | 0 |
+| ATM | 55 | ~40 | ~5 | ~10 | 0 | 1 |
+| CHEK2 | 108 | ~85 | ~5 | ~18 | 0 | 0 |
+| PALB2 | 13 | ~10 | ~1 | ~2 | 0 | 0 |
+
 ## Method
 
 1. Extract PASS-quality variants from VCF using `awk`
