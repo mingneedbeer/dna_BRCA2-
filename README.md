@@ -46,12 +46,12 @@ Each gene folder contains `README.md` (English) and `README_zh-TW.md` (Tradition
 
 | Gene | rsID | Location (GRCh37) | Variant | Genotype | Result |
 |------|------|-------------------|---------|----------|--------|
-| PNPLA3 | rs738409 | chr22:44324727 | I148M (C>G) | wild-type | No risk allele |
-| TM6SF2 | rs58542926 | chr19:19379549 | E167K (C>T) | wild-type | No risk allele |
-| MBOAT7 | rs641738 | chr19:54676763 | T>C (intronic) | wild-type | No risk allele |
+| PNPLA3 | rs738409 | chr22:44324727 | I148M (C>G) | **HOM (G/G)** | **Homozygous risk allele ×2** |
+| TM6SF2 | rs58542926 | chr19:19379549 | E167K (C>T) | **HOM (T/T)** | **Homozygous risk allele ×2** |
+| MBOAT7 | rs641738 | chr19:54676763 | T>C (intronic) | **HET (C/T)** | Heterozygous risk allele ×1 |
 | HSD17B13 | rs72613567 | chr4:88231394 | TA-insertion | wild-type | No protective allele |
 
-See `NAFLD/` for full details.
+**High NAFLD genetic risk profile** — homozygous PNPLA3 I148M and TM6SF2 E167K, plus heterozygous MBOAT7. See `NAFLD/` for full details.
 
 ### Extended NAFLD Panel (GCKR, MTARC1, APOE, LYPLAL1, GPAM, PNPLA2, CIDEB, TRIB1, MERTK, PEMT)
 
