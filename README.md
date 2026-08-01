@@ -18,7 +18,8 @@ Whole-genome sequencing (WGS) data analysis for pathogenic mutations in cancer p
 ├── EGFR/
 ├── ATM/
 ├── CHEK2/
-└── PALB2/
+├── PALB2/
+└── NAFLD/
 ```
 
 Each gene folder contains `README.md` (English) and `README_zh-TW.md` (Traditional Chinese).
@@ -39,6 +40,17 @@ Each gene folder contains `README.md` (English) and `README_zh-TW.md` (Tradition
 | PALB2  | chr16     | 23,614,488–23,652,631   | 13            | 0                  | None       |
 
 **No pathogenic mutations detected across all 10 genes.**
+
+### NAFLD Risk Variants Check
+
+| Gene | rsID | Location (GRCh37) | Variant | Genotype | Result |
+|------|------|-------------------|---------|----------|--------|
+| PNPLA3 | rs738409 | chr22:44324727 | I148M (C>G) | wild-type | No risk allele |
+| TM6SF2 | rs58542926 | chr19:19379549 | E167K (C>T) | wild-type | No risk allele |
+| MBOAT7 | rs641738 | chr19:54676763 | T>C (intronic) | wild-type | No risk allele |
+| HSD17B13 | rs72613567 | chr4:88231394 | TA-insertion | wild-type | No protective allele |
+
+See `NAFLD/` for full details.
 
 ### Coding Variants Detail
 
