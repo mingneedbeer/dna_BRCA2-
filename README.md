@@ -19,7 +19,8 @@ Whole-genome sequencing (WGS) data analysis for pathogenic mutations in cancer p
 ├── ATM/
 ├── CHEK2/
 ├── PALB2/
-└── NAFLD/
+├── NAFLD/
+└── NAFLD_extended/
 ```
 
 Each gene folder contains `README.md` (English) and `README_zh-TW.md` (Traditional Chinese).
@@ -51,6 +52,23 @@ Each gene folder contains `README.md` (English) and `README_zh-TW.md` (Tradition
 | HSD17B13 | rs72613567 | chr4:88231394 | TA-insertion | wild-type | No protective allele |
 
 See `NAFLD/` for full details.
+
+### Extended NAFLD Panel (GCKR, MTARC1, APOE, LYPLAL1, GPAM, PNPLA2, CIDEB, TRIB1, MERTK, PEMT)
+
+| Gene | rsID | Variant | Genotype | Result |
+|------|------|---------|----------|--------|
+| GCKR | rs1260326 | P446L | HET (T/C) | Risk-modifier (population-dependent) |
+| MTARC1 | rs2642438 | A165T | HOM (G/G) | Protective ×2 (favourable) |
+| APOE | rs429358+rs7412 | ε2/ε3/ε4 | **ε4/ε4** | Homozygous ε4 — clinically relevant |
+| LYPLAL1 | rs12137855 | C>T | wild-type | No risk allele |
+| GPAM | rs2792751 | I43V | wild-type | No risk allele |
+| PNPLA2 | rs1138693 | L481P | HET | Common benign polymorphism |
+| CIDEB | (full gene scan) | — | no coding variants | No protective LoF variants |
+| TRIB1 | rs2954021/17321515/2954029 | A>G/T | wild-type | No risk allele |
+| MERTK | rs34943572 | N329S | HET | Rare, VUS |
+| PEMT | rs7946 | V175M | wild-type | No risk allele |
+
+**Notable: APOE ε4/ε4 (homozygous).** See `NAFLD_extended/` for full details.
 
 ### Coding Variants Detail
 

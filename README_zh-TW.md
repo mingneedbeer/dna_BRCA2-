@@ -19,7 +19,8 @@
 ├── ATM/
 ├── CHEK2/
 ├── PALB2/
-└── NAFLD/
+├── NAFLD/
+└── NAFLD_extended/
 ```
 
 每個基因資料夾包含 `README.md`（英文）與 `README_zh-TW.md`（繁體中文）。
@@ -51,6 +52,23 @@
 | HSD17B13 | rs72613567 | chr4:88231394 | TA 插入 | 野生型 | 無保護性等位基因 |
 
 詳細內容請見 `NAFLD/`。
+
+### NAFLD 延伸檢測套組（GCKR、MTARC1、APOE、LYPLAL1、GPAM、PNPLA2、CIDEB、TRIB1、MERTK、PEMT）
+
+| 基因 | rsID | 變異 | 基因型 | 結果 |
+|------|------|------|--------|------|
+| GCKR | rs1260326 | P446L | HET（T/C） | 風險修飾因子（因族群而異） |
+| MTARC1 | rs2642438 | A165T | HOM（G/G） | 保護性 ×2（有利） |
+| APOE | rs429358+rs7412 | ε2/ε3/ε4 | **ε4/ε4** | 同型合子 ε4 — 具臨床意義 |
+| LYPLAL1 | rs12137855 | C>T | 野生型 | 無風險等位基因 |
+| GPAM | rs2792751 | I43V | 野生型 | 無風險等位基因 |
+| PNPLA2 | rs1138693 | L481P | HET | 常見良性多型性 |
+| CIDEB | （全基因掃描） | — | 無編碼變異 | 無保護性 LoF 變異 |
+| TRIB1 | rs2954021/17321515/2954029 | A>G/T | 野生型 | 無風險等位基因 |
+| MERTK | rs34943572 | N329S | HET | 罕見，VUS |
+| PEMT | rs7946 | V175M | 野生型 | 無風險等位基因 |
+
+**重要發現：APOE ε4/ε4（同型合子）。** 詳細內容請見 `NAFLD_extended/`。
 
 ### 編碼變異明細
 
