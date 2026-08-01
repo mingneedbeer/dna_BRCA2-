@@ -133,6 +133,11 @@ Tools: `bcftools`, Python 3, Ensembl VEP REST API, NCBI E-utilities
 | ATM   | ATM analysis added                   |
 | CHEK2 | CHEK2 analysis added                 |
 | PALB2 | PALB2 analysis added                 |
+| v2.0  | Full 10-gene summary tables added    |
+| rc-1  | Session export log added             |
+| NAFLD | NAFLD core 4-locus panel             |
+| NAFLD_extended | Extended NAFLD panel (10 loci) |
+| NAFLD_corrected | Core panel corrected (chr-prefix bug fix) |
 
 ## Disclaimer
 

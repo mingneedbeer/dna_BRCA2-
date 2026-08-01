@@ -134,6 +134,10 @@ python src/analyze.py <GENE> <CHROM> <START> <END> your_file.vcf.gz
 | CHEK2 | CHEK2 分析完成                      |
 | PALB2 | PALB2 分析完成                      |
 | v2.0  | 10 個基因完整摘要表格               |
+| rc-1  | 新增會話匯出紀錄                     |
+| NAFLD | NAFLD 核心 4 基因座檢測套組          |
+| NAFLD_extended | NAFLD 延伸檢測套組（10 基因座）|
+| NAFLD_corrected | 核心套組修正（chr 前綴錯誤修正）|
 
 ## 免責聲明
 
