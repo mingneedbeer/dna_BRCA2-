@@ -20,10 +20,21 @@ Whole-genome sequencing (WGS) data analysis for pathogenic mutations in cancer p
 ├── CHEK2/
 ├── PALB2/
 ├── NAFLD/
-└── NAFLD_extended/
+├── NAFLD_extended/
+└── CLINICAL_REPORT/       # Consolidated clinical-style summary (EN + zh-TW)
 ```
 
 Each gene folder contains `README.md` (English) and `README_zh-TW.md` (Traditional Chinese).
+
+## Clinical Report
+
+A consolidated, clinical-style summary of all findings is available in [`CLINICAL_REPORT/`](CLINICAL_REPORT/):
+
+- [`index.md`](CLINICAL_REPORT/index.md) — landing page with headline findings
+- [`cancer.md`](CLINICAL_REPORT/cancer.md) — 10-gene hereditary cancer screen (negative)
+- [`nafld.md`](CLINICAL_REPORT/nafld.md) — NAFLD/metabolic panel (high genetic risk; APOE ε4/ε4)
+
+Each report follows a clinical structure: Specimen & Method → Results → Interpretation → Limitations → Recommendations → Considerations for Your Clinician. Recommendations are generic referrals; Considerations are data-framed observations, not medical directives.
 
 ## Gene Analyses
 
@@ -138,6 +149,7 @@ Tools: `bcftools`, Python 3, Ensembl VEP REST API, NCBI E-utilities
 | NAFLD | NAFLD core 4-locus panel             |
 | NAFLD_extended | Extended NAFLD panel (10 loci) |
 | NAFLD_corrected | Core panel corrected (chr-prefix bug fix) |
+| v3.0  | Clinical report added (CLINICAL_REPORT/)   |
 
 ## Disclaimer
 

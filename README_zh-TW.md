@@ -20,10 +20,22 @@
 ├── CHEK2/
 ├── PALB2/
 ├── NAFLD/
-└── NAFLD_extended/
+├── NAFLD_extended/
+└── CLINICAL_REPORT/       # 整合式臨床摘要（EN + zh-TW）
 ```
 
+
 每個基因資料夾包含 `README.md`（英文）與 `README_zh-TW.md`（繁體中文）。
+
+## 臨床報告
+
+所有發現之整合式臨床摘要，詳見 [`CLINICAL_REPORT/`](CLINICAL_REPORT/)：
+
+- [`index.md`](CLINICAL_REPORT/index.md) — 總覽頁，含重點發現
+- [`cancer.md`](CLINICAL_REPORT/cancer.md) — 10 基因遺傳性癌症篩檢（陰性）
+- [`nafld.md`](CLINICAL_REPORT/nafld.md) — NAFLD／代謝套組（高度遺傳風險；APOE ε4/ε4）
+
+每份報告皆依臨床結構編排：檢體與方法 → 結果 → 解讀 → 限制 → 建議 → 供臨床醫師參考之考量。建議為一般性轉介；考量為以資料呈現之觀察事項，非醫療指示。
 
 ## 基因分析結果
 
@@ -138,6 +150,7 @@ python src/analyze.py <GENE> <CHROM> <START> <END> your_file.vcf.gz
 | NAFLD | NAFLD 核心 4 基因座檢測套組          |
 | NAFLD_extended | NAFLD 延伸檢測套組（10 基因座）|
 | NAFLD_corrected | 核心套組修正（chr 前綴錯誤修正）|
+| v3.0  | 新增臨床報告（CLINICAL_REPORT/）|
 
 ## 免責聲明
 
